@@ -16,7 +16,7 @@
   document.addEventListener("DOMContentLoaded", function() {
   const referrer = document.referrer; // Get the referrer
   if (referrer.includes('https://realmblock.co/')) {
-    window.location.href = 'https://realmblock.co/login';
+    window.location.href = 'https://realmblock.co/404';
   } else if (window.location.href === 'https://api.realmblock.co/' && referrer === '') {
     window.location.href = 'https://api.realmblock.co/403';
   }
