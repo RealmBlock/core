@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://uptime.betterstack.com/widgets/announcement.js" data-id="197802" async="async" type="text/javascript"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecting...</title>
+  <style>
+    body {
+      background-color: var(--color--background-main, #08090A);
+      margin: 0;
+      height: 100vh;
+    }
+  </style>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const referrer = document.referrer; // Get the referrer
+
+      if (window.location.href === 'https://api.realmblock.co/' && referrer === '') {
+        window.location.href = 'https://api.realmblock.co/403';
+      }
+      if (referrer.includes('realmblock.co')) {
+        window.location.href = 'https://realmblock.co/login';
+      }
+    });
+  </script>
+</head>
+<body>
+</body>
+</html>
