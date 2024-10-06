@@ -1,11 +1,13 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <script src="https://uptime.betterstack.com/widgets/announcement.js" data-id="197802" async="async" type="text/javascript"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>403 - Permission Denied</title>
+  <title>404 - Page Not Found</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
 
     body {
       background-color: var(--color--background-main, #08090A);
@@ -45,12 +47,12 @@
     }
 
     .button-container {
-      margin-top: 1rem; /* Increased spacing between text and button */
+      margin-top: 1rem;
     }
 
     .button {
-      padding: 0.6rem 1.75rem; /* Slightly increased padding for a better look */
-      font-size: 0.9rem; /* Keeping the smaller font size */
+      padding: 0.6rem 1.75rem;
+      font-size: 0.9rem;
       font-weight: 600;
       color: #08090A;
       background-color: white;
@@ -71,6 +73,25 @@
       left: 20px;
       z-index: 1000;
     }
+
+    /* Benji.Services section at the bottom-right */
+    .benji-services {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      font-family: 'Gochi Hand', cursive;
+      font-size: 1rem;
+      color: #ffffffb3;
+    }
+
+    .benji-services a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .benji-services a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -84,5 +105,11 @@
       <iframe src="https://status.realmblock.co/badge?theme=dark" width="250" height="30" frameborder="0" scrolling="no"></iframe>
     </div>
   </div>
+
+  <!-- Benji.Services branding -->
+  <div class="benji-services">
+    Made with ❤️ by <a href="https://benji.services" target="_blank">Benji.Services</a>
+  </div>
+
 </body>
 </html>
